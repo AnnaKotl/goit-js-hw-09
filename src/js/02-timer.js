@@ -15,7 +15,6 @@ let deltaTime = null;
 let intervalId = null;
 
 buttonEl.setAttribute('disabled', 'true');
-
 buttonEl.addEventListener('click', onStartTimer);
 
 const options = {
